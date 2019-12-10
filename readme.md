@@ -1,18 +1,25 @@
-# _ _
+# _Scrabble letters!_
 
-#### _  _
+#### _Some back end for letter/number conversion_
 
-#### By _**Michael Wells**_
+#### By _**Michael Wells and Ike Esquivel-Pilloud**_
 
 ## Description
 
-_ _
+_Yes._
 
 |Behavior|Input|Output|
 |---|---|---|
-|   |   |   |
-|   |   |   |
-|   |   |   |
+| The program will take a word | "pencil" | "pencil" |
+| The program will check for the characters a, e, i, o, u, l, n, r, s, t, and their capital equivalents, assigning a score based on the letters that are found. | "apple" | "3" |
+| The program will check for the characters d, g, and their capital equivalents, assigning a score based on the letters that are found. | "dog" | "4" |
+| The program will check for the characters b, c, m, p, and their capital equivalents, assigning a score based on the letters that are found. | "crab mop" | "12" |
+| The program will check for the characters f, h, v, w, y, and their capital equivalents, assigning a score based on the letters that are found. | "food house version wood yellow" | "20" |
+| The program will check for the character k, and their capital equivalent, assigning a score based on the letters that are found. | "Kørn" | "5" |
+| The program will check for the characters j, x and their capital equivalents, assigning a score based on the letters that are found. | "juice wax" | "16" |
+| The program will check for the characters q, z, and their capital equivalents, assigning a score based on the letters that are found. | "queen zebra" | "20" |
+| The program will check for all characters and their capital equivalents, and return a total score | "cheese" | "11" |
+
 
 ## Setup/Installation Requirements
 
