@@ -9,20 +9,13 @@ class Scrabble
   end
 
   def letter_search
-    wordsone = @word.scan(/[aeioulnrstAEIOULNRST]/)
-    score1 = wordsone.length()
-    wordstwo = @word.scan(/[DGdg]/)
-    score2 = 2 * wordstwo.length()
-    wordsthree = @word.scan(/[bcmpBCMP]/)
-    score3 = 3 * wordsthree.length()
-    wordsfour = @word.scan(/[fhvwyFHVWY]/)
-    score4 = 4 * wordsfour.length()
-    wordsfive = @word.scan(/[k]/)
-    score5 = 5 * wordsfive.length()
-    wordssix = @word.scan(/[jxJX]/)
-    score6 = 8 * wordssix.length()
-    wordsseven = @word.scan(/[qzQZ]/)
-    score7 = 10 * wordsseven.length()
-    total = score1 + score2 + score3 + score4 + score5 + score6 + score7
+    words1 = @word.scan(/[aeioulnrstAEIOULNRST]/).length()
+    words2 = @word.scan(/[DGdg]/).length() * 2
+    words3 = @word.scan(/[bcmpBCMP]/).length * 3
+    words4 = @word.scan(/[fhvwyFHVWY]/).length * 4
+    words5 = @word.scan(/[k]/).length * 5
+    words8 = @word.scan(/[jxJX]/).length * 8
+    words10 = @word.scan(/[qzQZ]/).length * 10
+    total = words1 + words2 + words3 + words4 + words5 + words8 + words10
   end
 end
